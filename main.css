@@ -10,7 +10,7 @@ body {
     background: url('images/starfield-banner.jpg ');
     width: 100%;
     height: 130px;
-    border: 2px solid red;
+     
 }
 
 .header .logo {
@@ -26,7 +26,7 @@ body {
     position: absolute;
     left: 380px;
     top:5px; 
-    border: 3px solid red;
+     
     font-size: 19px;
 }
 
@@ -110,7 +110,7 @@ body {
     width: 900px;
     height: 38px;
     background-color: rgb(95, 93, 93);
-    border: 3px solid red;
+     
     position: absolute;
     left:300px;
     top: 80px;
@@ -214,7 +214,7 @@ body {
     position: absolute;
     left: 1220px;
     top: 15px;
-    border: 2px solid red;
+     
 }
 
 .header .search .src{
@@ -250,7 +250,7 @@ body {
 .b1{
     width: 100%;
     height: 583px;
-    border: 2px solid red;
+     
     font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -262,7 +262,7 @@ body {
     background-size: 100% 100%;
     width: 48%;
     height: 578px;
-    border: 2px solid red;
+     
     float: left;
 }
 
@@ -270,7 +270,7 @@ body {
     background-color: cornflowerblue;
     width: 80px;
     height: 40px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 491px;
     text-align: center;
@@ -285,7 +285,7 @@ body {
     font-size: 17px;
     width: 676px;
     height: 40px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 491px;
  }
@@ -298,7 +298,7 @@ body {
     width: 24%;
     height: 280px;
     margin: 0px 10px;
-    border: 2px solid red;
+     
     overflow: hidden;
  }
 
@@ -306,7 +306,7 @@ body {
     background-color: cornflowerblue;
     width: 80px;
     height: 40px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 173px;
     text-align: center;
@@ -320,7 +320,7 @@ body {
     font-size: 17px;
     width: 337px;
     height: 60px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 173px;
  }
@@ -331,7 +331,7 @@ body {
     width: 24%;
     height: 280px;
     margin: 0px 0px;
-    border: 2px solid red;
+     
     overflow: hidden;
  }
 
@@ -365,7 +365,7 @@ body {
     width: 705px;
     height: 280px;
     margin: 10px 10px 0px 10px;
-    border: 2px solid red;
+     
     overflow: hidden;
  }
 
@@ -376,7 +376,7 @@ body {
     font-size: 17px;
     width: 703px;
     height: 40px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 237px;
  }
@@ -384,7 +384,7 @@ body {
  .b2{
     width: 100%;
     height: 533px;
-    border: 2px solid red;
+     
     margin-top: 15px;;
     font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -398,7 +398,7 @@ body {
     width: 24%;
     height: 250px;
     margin: 0px 0px;
-    border: 2px solid red;
+     
     overflow: hidden;
 } 
 
@@ -406,7 +406,7 @@ body {
     background-color: cornflowerblue;
     width: 150px;
     height: 30px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 173px;
     text-align: center;
@@ -420,7 +420,7 @@ body {
     font-size: 17px;
     width: 339px;
     height: 40px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 173px;
 }
@@ -433,7 +433,7 @@ body {
     width: 48%;
     height: 250px;
     margin: 0px 10px;
-    border: 2px solid red;
+     
     overflow: hidden;
 }
 
@@ -441,7 +441,7 @@ body {
     background-color: cornflowerblue;
     width: 100px;
     height: 30px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 173px;
     text-align: center;
@@ -455,7 +455,7 @@ body {
     font-size: 17px;
     width: 703px;
     height: 40px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 173px;
 }
@@ -465,7 +465,7 @@ body {
     width: 24%;
     height: 250px;
     margin: 0px 0px;
-    border: 2px solid red;
+     
     overflow: hidden;
 }
 
@@ -477,7 +477,7 @@ body {
     width: 24%;
     height: 250px;
     margin: 10px 0px;
-    border: 2px solid red;
+     
     overflow: hidden;
 }
 
@@ -485,7 +485,7 @@ body {
     background-color: cornflowerblue;
     width: 120px;
     height: 40px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 153px;
     text-align: center;
@@ -499,7 +499,7 @@ body {
     font-size: 17px;
     width: 339px;
     height: 60px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 153px;
 }
@@ -512,7 +512,7 @@ body {
     width: 23%;
     height: 250px;
     margin: 10px 20px 10px 10px;
-    border: 2px solid red;
+     
     overflow: hidden;
 }
 
@@ -520,7 +520,7 @@ body {
     background-color: cornflowerblue;
     width: 70px;
     height: 40px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 153px;
     text-align: center;
@@ -534,7 +534,7 @@ body {
     font-size: 17px;
     width: 322px;
     height: 60px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 153px;
 }
@@ -547,7 +547,7 @@ body {
     width: 23%;
     height: 250px;
     margin: 10px 0px;
-    border: 2px solid red;
+     
     overflow: hidden;
 }
 
@@ -555,7 +555,7 @@ body {
     background-color: cornflowerblue;
     width: 80px;
     height: 40px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 153px;
     text-align: center;
@@ -569,7 +569,7 @@ body {
     font-size: 17px;
     width: 322px;
     height: 60px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 153px;
 }
@@ -582,7 +582,7 @@ body {
     width: 24%;
     height: 250px;
     margin: 10px 10px;
-    border: 2px solid red;
+     
     overflow: hidden;
 }
 
@@ -590,7 +590,7 @@ body {
     background-color: cornflowerblue;
     width: 200px;
     height: 40px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 133px;
     text-align: center;
@@ -604,7 +604,7 @@ body {
     font-size: 17px;
     width: 339px;
     height: 150px;
-    border: 2px solid red;
+     
     position: relative; 
     top: 133px;
 }
@@ -621,7 +621,7 @@ body {
 .ftlogo{
     width: 420px;
     height: 80px;
-    border: 2px solid red;
+     
     font-size: 13px;
     font-weight: 600;
     margin-top:20px; 
