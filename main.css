@@ -26,7 +26,6 @@ body {
     position: absolute;
     left: 380px;
     top:5px; 
-     
     font-size: 19px;
 }
 
@@ -272,7 +271,7 @@ body {
     height: 40px;
      
     position: relative; 
-    top: 491px;
+    top: 494px;
     text-align: center;
     line-height: 40px;
 
@@ -283,11 +282,11 @@ body {
     color: black;
     font-weight: 600;
     font-size: 17px;
-    width: 676px;
-    height: 40px;
+    width: 678px;
+    height: 42px;
      
     position: relative; 
-    top: 491px;
+    top: 477px;
  }
 
  .b1 .right1{
@@ -298,7 +297,6 @@ body {
     width: 24%;
     height: 280px;
     margin: 0px 10px;
-     
     overflow: hidden;
  }
 
@@ -306,9 +304,8 @@ body {
     background-color: cornflowerblue;
     width: 80px;
     height: 40px;
-     
     position: relative; 
-    top: 173px;
+    top: 193px;
     text-align: center;
     line-height: 40px;
  }
@@ -318,9 +315,8 @@ body {
     color: black;
     font-weight: 600;
     font-size: 17px;
-    width: 337px;
+    width: 339px;
     height: 60px;
-     
     position: relative; 
     top: 173px;
  }
@@ -365,7 +361,6 @@ body {
     width: 705px;
     height: 280px;
     margin: 10px 10px 0px 10px;
-     
     overflow: hidden;
  }
 
@@ -374,17 +369,15 @@ body {
     color: black;
     font-weight: 600;
     font-size: 17px;
-    width: 703px;
+    width: 704px;
     height: 40px;
-     
     position: relative; 
-    top: 237px;
+    top: 225px;
  }
 
  .b2{
     width: 100%;
     height: 533px;
-     
     margin-top: 15px;;
     font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -398,7 +391,6 @@ body {
     width: 24%;
     height: 250px;
     margin: 0px 0px;
-     
     overflow: hidden;
 } 
 
@@ -406,9 +398,8 @@ body {
     background-color: cornflowerblue;
     width: 150px;
     height: 30px;
-     
     position: relative; 
-    top: 173px;
+    top: 180px;
     text-align: center;
     line-height: 30px;
 }
@@ -420,9 +411,8 @@ body {
     font-size: 17px;
     width: 339px;
     height: 40px;
-     
     position: relative; 
-    top: 173px;
+    top: 163px;
 }
 
 .b2 .top_2{
@@ -443,7 +433,7 @@ body {
     height: 30px;
      
     position: relative; 
-    top: 173px;
+    top: 180px;
     text-align: center;
     line-height: 30px;
 }
@@ -457,7 +447,7 @@ body {
     height: 40px;
      
     position: relative; 
-    top: 173px;
+    top: 163px;
 }
 
 .b2 .top_3{
@@ -501,7 +491,7 @@ body {
     height: 60px;
      
     position: relative; 
-    top: 153px;
+    top: 143px;
 }
 
 .b2 .bot_2{
@@ -536,7 +526,7 @@ body {
     height: 60px;
      
     position: relative; 
-    top: 153px;
+    top: 143px;
 }
 
 .b2 .bot_3{
@@ -571,7 +561,7 @@ body {
     height: 60px;
      
     position: relative; 
-    top: 153px;
+    top: 143px;
 }
 
 .b2 .bot_4{
@@ -592,7 +582,7 @@ body {
     height: 40px;
      
     position: relative; 
-    top: 133px;
+    top: 143px;
     text-align: center;
     line-height: 40px;
 }
