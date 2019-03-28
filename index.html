@@ -1,162 +1,40 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>NASA</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <meta charset="UTF-8">
+    <title>Whack A Mole!</title>
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <script src="game-normal.js"></script>
+    <!--<script src="game-easy.js"></script>-->
 </head>
-
 <body>
-    <div class="header">
-        <div class="logo">
-            <img src="images/nasa_logo.png" width="90px" height="90px">
-        </div>
-        <div class="top_nav">
-            <div class="top1">Missions</div>
-            <div class="top2">Galleries</div>
-            <div class="top3">NASA TV</div>
-            <div class="top4">Follow NASA</div>
-            <div class="top5">Downloads</div>
-            <div class="top6">About</div>
-            <div class="top7">NASA Audiences</div>
-        </div>
-        <div class="bot_nav">
-            <div class="bot1">Humans in Space</div>
-            <div class="bot2">Moon to Mars</div>
-            <div class="bot3">Earth</div>
-            <div class="bot4">Space Tech</div>
-            <div class="bot5">Flight</div>
-            <div class="bot6">Solor System and Beyond</div>
-            <div class="bot7">Education</div>
-            <div class="bot8">History</div>
-            <div class="bot9">Benefits to You</div>
-        </div>
-        <div class="search">
-            <input type="text" placeholder="Search" class="src">
-            <input type="button" class="img">
-            <a href="http://www.baidu.com">
-                <img src="images/share.svg" class="share">
-            </a> 
-        </div>
-    </div>
 
-    <div class="b1">
-        <div class="left">
-            <div class="lefttitle">
-                Dawn
-            </div>
-            <div class="leftcontent">
-                <p style="margin-left:20px;line-height: 42px;">Dusk for Dawn:Mission of Many Firsts to Gather More Data in Home Stretch</p>
-            </div>
-        </div>
-        <div class="right1">
-            <div class="right1title">
-                Climate
-            </div>
-            <div class="right1content">
-                <p style="margin-top: 20px; margin-left: 13px; width: 280px">A Scientist's Final Paper Looks Toward Earth's Future Climate</p>
-            </div>
-        </div>
-        <div class="right2">
-            <p style="margin-left:10px;">
-                NASA Events
-            </p>
-            <div class="line1"></div>
-            <p style="margin-left:10px;margin-right: 10px;position: relative;bottom: 20px;">
-                Calling All Social Media Users! Apply to Experience the Launch of NASA's ICESat-2
-            <p>
-            <p style="margin-left:10px;margin-right: 10px;position: relative;bottom: 30px;">
-                No Earlier Than Saturday,Aug.4,4 a.m.EDT:Launch of Parker Solar Probe from Cape Canaveral Air Force Station in Florida
-            </p>
-            <div class="line2"></div>
-            <p style="margin-left:10px;display: inline;position: relative;top: 90px;">
-                NASA TV Schedule
-            </p>
-            <p style="margin-left:40px;display: inline;position: relative;top: 90px;">
-                Launches and Landings
-            </p>
-        </div>
-        <div class="right3">
-            <div class="right3content">
-                <p style="margin-left:13px;line-height: 40px;">July 16, 1969: Liftoff of Apollo 11</p>
-            </div>
-        </div>
+<div class="title">
+    <h1 id="title">WHACK-A-MOLE! </h1>
+    <h1><span class="score">0</span></h1>
+</div>
+
+<div class="game">
+    <div class="hole hole1">
+        <div class="mole"></div>
     </div>
-    <div class="b2">
-        <div class="top_1">
-            <div class="top_1title">Image of the Day</div>
-            <div class="top_1content">
-                <p style="margin-left: 13px;line-height: 40px;">A Merger of Stars</p>
-            </div>
-        </div>
-        <div class="top_2">
-            <div class="top_2title">Asteriods</div>
-            <div class="top_2content">
-                <p style="margin-left: 15px;line-height: 40px;">Observatories Team Up to Reveal Rare Double Asteroids</p>
-            </div>
-        </div>
-        <div class="top_3">
-            <embed src='https://player.youku.com/player.php/sid/XMTM2NzMzNDM5Ng==/v.swf' allowFullScreen='true' quality='high' width='100%' height='100%' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
-        </div>
-        <div class="bot_1">
-            <div class="bot_1title">About NASA</div>
-            <div class="bot_1content">
-                <p style="margin-left: 15px;margin-top: 10px;">NASA Statement on Nomination for Agency Deputy Administrator</p>
-            </div>
-        </div>
-        <div class="bot_2">
-            <div class="bot_2title">Juno</div>
-            <div class="bot_2content">
-                <p style="margin-left: 15px;margin-top: 10px;">NASA Juno Data Indicate Another Possible Volcano on Jupiter Moon lo</p>
-            </div>
-        </div>
-        <div class="bot_3">
-            <div class="bot_3title">Cassini</div>
-            <div class="bot_3content">
-                <p style="margin-left: 15px;margin-top: 10px;">NASA's Cassini Coverage Lands an Emmy Nomination</p>
-            </div>
-        </div>
-        <div class="bot_4">
-            <div class="bot_4title">Fermi Space Telescope</div>
-            <div class="bot_4content">
-                <p style="margin-left: 15px;margin-top: 10px;">NASA's Fermi Traces Source of Cosmic Neutrino to Monster Black Hole</p>
-            </div>
-        </div>
+    <div class="hole hole2">
+        <div class="mole"></div>
     </div>
-    <div class="footer">MORE STORIES</div>
-    <div class="ftlogo">
-        <p>
-            <img src="images/nasa-logo.svg" align="left" width="80px" height="67px">
-            National Aeronautics and Space Administration NASA Official: Brian Dunbar
-        </p>
+    <div class="hole hole3">
+        <div class="mole"></div>
     </div>
-    <ul class="ft_nav">
-        <li>
-            <a>No Fear Act</a>
-        </li>
-        <li>
-            <a>FOIA</a>
-        </li>
-        <li>
-            <a>Privacy</a>
-        </li>
-        <li>
-            <a>Office of Inspector General</a>
-        </li>
-        <li>
-            <a>Office of Special Counsel</a>
-        </li>
-        <li>
-            <a>Agency Financial Reports</a>
-        </li>
-        <li>
-            <a>Contact NASA</a>
-        </li>
-    <ul>
-    <embed src="bgmusic.mp3">
+    <div class="hole hole4">
+        <div class="mole"></div>
+    </div>
+    <div class="hole hole5">
+        <div class="mole"></div>
+    </div>
+    <div class="hole hole6">
+        <div class="mole"></div>
+    </div>
+</div>
+<button id="start_btn" class="bubbly-button">Start!</button>
 </body>
-
 </html>
