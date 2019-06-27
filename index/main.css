@@ -1,0 +1,71 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.bgimage{
+    background: url(indexbg.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+.title{
+    text-align: center;
+}
+
+
+.log_in{
+    width: 900px;
+    height: 620px;
+    background-color: #ffffff;
+    position: relative;
+    left: 290px;
+    top: 30px;
+    border-radius: 10px;
+}
+
+.log_in img{
+    position: relative;
+    top: 150px;
+    left: 60px;
+}
+.f1{
+   
+    position: relative;
+    bottom: 50px;
+    left: 450px;
+   
+}
+
+.f2{
+    position: relative;
+    bottom: 50px;
+    left: 450px;
+}
+
+
+.b1{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    left: 190px;
+    
+}
+
+.b2{
+    position: relative;
+    left: 600px;
+    bottom:40px;
+    
+}
+
+.role{
+    position: relative;
+    left:450px;
+    bottom:60px; 
+}
+
+
+
+body{
+    overflow-x: hidden;
+}

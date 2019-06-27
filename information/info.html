@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>华软颐养中心</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    </head>
+    <body>
+        <img src="oldman.jpg" class="oldpic"/>
+        <h3>选择床位信息</h3>
+        <p>公寓1~3栋，房间号R001~R012</p>
+        <form class="form-inline" method="POST" action=""> 
+            床位ID：
+            <input type="text" class="form-control" name="bedID">
+            <br>
+            <br>
+            床位起始日期：
+            <input type="text" class="form-control" name="bedStart">
+            <br>
+            <br>
+            床位结束日期：
+            <input type="text" class="form-control" name="bedEnd">
+            <br>
+            <br>
+            床位详细信息:
+            <select class="form-control" name="bedDetail">
+                <option>公寓1栋</option>
+                <option>公寓2栋</option>
+                <option>公寓3栋</option>
+            </select>
+            <select class="form-control" name="room">
+                <option>R001</option>
+                <option>R002</option>
+                <option>R003</option>
+                <option>R004</option>
+                <option>R005</option>
+                <option>R006</option>
+                <option>R007</option>
+                <option>R008</option>
+                <option>R009</option>
+                <option>R010</option>
+                <option>R011</option>
+                <option>R012</option>
+            </select>
+            <select class="form-control" name="bedNum">
+                <option>1号床</option>
+                <option>2号床</option>
+                <option>3号床</option>
+                <option>4号床</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" class="btn btn-primary" value="确定" onclick="jump()">
+        </form>
+    </body>
+    <script type="text/javascript" src="info.js"></script>
+</html>

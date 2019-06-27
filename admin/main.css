@@ -1,0 +1,69 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.bgimage{
+    background: url(indexbg.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+.title{
+    text-align: center;
+}
+
+.f1{
+    width: 400px;
+    height: 40px;
+    position: relative;
+    left: 550px;
+    top: 150px;
+}
+
+.f2{
+    width: 400px;
+    height: 40px;
+    position: relative;
+    left: 550px;
+    top: 200px;
+}
+
+.b1{
+    
+    width: 200px;
+    height: 40px;
+}
+
+.role{
+    position: relative;
+    width: 400px;
+    height: 40px;
+    left: 550px;
+    top: 250px;
+}
+
+.f{
+    position: relative;
+    left: 650px;
+}
+
+.top4 a .se{
+    width: 30px;
+    height: 30px;
+    float: right;
+    position: relative;
+    left: 200px;
+}
+.top4 input{
+    width: 200px;
+    height: 30px;
+    float: right;
+}
+
+.top4 button{
+    width: 200px;
+    height: 50px;
+    float: left;
+    margin-left: 5%;    
+    overflow: hidden;        
+}

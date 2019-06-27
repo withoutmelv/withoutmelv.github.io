@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>华软颐养中心</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    </head>
+    <body>
+        <img src="oldman.jpg" class="oldpic"/>
+        <h3>膳食日历</h3>
+        <form class="form-inline" method="POST" action=""> 
+            食品名称：
+            <input type="text" class="form-control" name="foodName">
+            <br>
+            <br>
+            食品类别：
+            <input type="text" class="form-control" name="foodClass">
+            <br>
+            <br>
+            食品标签：
+            <input type="text" class="form-control" name="foodLabel">
+            <br>
+            <br>
+            食品价格:
+            <input type="text" class="form-control" name="foodPrice">
+            <br>
+            <br>
+            是否清真：
+            <select class="form-control" name="taste">
+                <option>是</option>
+                <option>否</option>
+            </select>
+            <br>
+            <br>
+            供应星期：
+            <select class="form-control" name="day">
+                <option>星期一</option>
+                <option>星期二</option>
+                <option>星期三</option>
+                <option>星期四</option>
+                <option>星期五</option>
+                <option>星期六</option>
+                <option>星期日</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" class="btn btn-primary" value="确定" onclick="jump()">
+        </form>
+        
+    </body>
+    <script type="text/javascript" src="otherInfo.js"></script>
+</html>

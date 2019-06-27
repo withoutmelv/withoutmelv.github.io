@@ -1,0 +1,515 @@
+.bgimage{
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.top1{
+    
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.top1 .subtitle1{
+    display: inline-block;
+    margin-left: 100px;
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: 1000;
+    padding-right: 5px;
+    border-right: 2px solid grey;
+}
+
+.top1 .subtitle2{
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    position: relative;
+    bottom: 3px;
+}
+
+.top1 img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 250px;
+    top: 20px;
+
+}
+
+.top1 .contact{
+    display: inline-block; 
+    position: relative;
+    top: 8px;
+    left: 500px;
+    font-size: 28px;
+    font-weight: bold; 
+    color: #F39700;
+    
+}
+
+#container {
+	width: 1490px;
+	height: 300px;
+	overflow: hidden;
+}
+ 
+#photo {
+	width: 4470px;
+	animation: switch 5s ease-out infinite;
+}
+ 
+#photo > img {
+	float: left;
+	width: 1490px;
+	height: 300px;
+}
+ 
+@keyframes switch {
+	0%, 25% {
+		margin-left: 0;
+	}
+	35%, 60% {
+		margin-left: -1490px;
+	}
+	70%, 100% {
+		margin-left: -2980px;
+    }
+}
+
+.top2{
+    height: 53px;
+    width: 100%;
+    margin-left: 0px;
+    background-color: #F39700;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.top2 ul{
+    width: auto;
+    list-style-type: none;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 5%;
+    padding: 0;
+}
+
+.top2 ul li{
+    float: left;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+.top2 ul li a:not(.no){
+    display: block;
+    font-size:22px;
+    width: 120px;
+    height: 45px;
+    line-height: 45px;
+    color: black;
+    text-align: center;
+    padding: 3px;
+    overflow: hidden;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.top2 ul li a:hover:not(.no){
+    color: white;
+    background-color: rgba(85,52,13,0.9);
+}
+
+.top3{
+    width: 200px;
+    height: 190px;
+    border: 2px solid red;
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    z-index: 99;
+}
+
+.top3 a{
+    text-decoration: none;
+    color: #F39700;
+    cursor: default;
+}
+
+.fixbt{
+    background-color: #999999;
+    line-height: 60px;
+    width: 200px;
+    height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 99;
+    position: relative;
+    left: 160px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+.top3 a div:hover{
+    animation: btmove 1s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+@keyframes btmove{
+    100%{position: relative;left: 0px;}
+}
+
+.top3 a img{
+    float: left;
+    vertical-align: middle;
+    position: relative;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.yuyue{
+    border: 1px solid red;
+    background: url("visit-bg.jpg") no-repeat;
+    z-index: -3;
+    
+}
+
+
+.v1{
+    width: 340px;
+    height: 100px;
+    position: relative;
+    left: 80px;
+   
+}
+
+.v2{
+    z-index: 99;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    right: 340px;
+}
+
+.m1{
+    position: relative;
+    left: 600px;
+    bottom: 100px;
+}
+
+.m2{
+    position: relative;
+    left: 1200px;
+    bottom: 150px;
+}
+
+.m2 p{
+    position: relative;
+    left: 15px;
+    bottom: 80px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.top4 a .se{
+    width: 30px;
+    height: 30px;
+    float: right;
+    position: relative;
+    left: 200px;
+}
+.top4 input{
+    width: 200px;
+    height: 30px;
+    float: right;
+}
+
+.top4 button{
+    width: 200px;
+    height: 50px;
+    float: left;
+    margin-left: 5%;    
+    overflow: hidden;        
+}
+
+.gardentitle{
+    position: relative;
+    left: 45%;
+    font-size: 40px;
+    font-weight: 700;
+    color: #444444;
+    text-align: center;
+    width: 200px;
+    border-bottom: 1px solid #F39700;
+}
+.healthyfoodt1{
+    width: 250px;
+}
+
+
+.gardencontent1{
+    box-shadow: 0px 0px 30px #E8E8E8;
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    transform: translateY(502px);
+    opacity: 0;
+    
+}
+
+.ee{
+    transform: translateY(0px);
+    opacity: 1;
+    transition: transform 1s ease 0s,opacity 1s ease 0s;
+}
+
+
+.gardenpic{
+    
+    width: 700px;
+    height: 482px;
+    position: relative;
+    left: 60px;
+}
+
+.word{
+    margin-top: 10px;
+    float: right;
+    position: relative;
+    right: 550px;
+    font-size: 30px;
+    font-weight: 400;
+    border-left: 3px solid #F39700;
+}
+
+.line{
+    height: 0px;
+    border: 1px solid #F39700;
+    width: 650px;
+    position: relative;
+    bottom: 425px;
+    left: 800px;
+}
+
+.garden-right1{
+    width: 74px;
+    height: 74px;
+    position: relative;
+    bottom: 400px;
+    left: 800px;
+}
+
+.garden-right2{
+    width: 74px;
+    height: 74px;
+    position: relative;
+    bottom: 400px;
+    left: 880px;
+}
+
+
+.garden-right3{
+    width: 74px;
+    height: 74px;
+    position: relative;
+    bottom: 400px;
+    left: 960px;
+}
+
+.line1{
+    display: inline-block;
+    height: 50px;
+    border-top: 1px solid #F39700;
+    width: 50px;
+    position: relative;
+    bottom: 370px;
+    left: 578px;
+}
+
+.line2{
+    width: 65px;
+    position: relative;
+    bottom: 370px;
+    left: 677px;
+}
+
+.line3{
+    width: 65px;
+    position: relative;
+    bottom: 370px;
+    left: 765px;
+}
+
+.text{
+    font-size: 22px;
+    position: relative;
+    left: 800px;
+    bottom: 350px;
+}
+
+.top2 ul li ul{
+    display: none;
+    z-index: 999;
+}
+
+.top2 ul li:hover ul.two{
+    display: block;
+    position: absolute;
+    left: 275px;
+    top: 156px;
+    width: 128px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #D8C7B0;
+    background-color: rgba(85,52,13,0.9);
+}
+
+.top2 ul li:hover ul.three{
+    display: block;
+    position: absolute;
+    left: 542px;
+    top: 156px;
+    width: 128px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #D8C7B0;
+    background-color: rgba(85,52,13,0.9);
+}
+
+.top2 ul li ul li{
+    text-align: center;
+    display: block;
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.top2 ul li ul li:hover{
+    background-color: rgb(252, 169, 36);
+    color: rgb(255, 255, 255);
+}
+
+.top2 ul li ul li a{
+    color: #D8C7B0;
+    text-decoration: none;
+}
+
+.superlife{
+    display: inline-block;
+    margin-top: 50px;
+    border: 1px solid red;
+}
+
+.life{
+    display: inline-block;
+    margin-left: 50px;
+    height: 557px;
+    width: 402;
+    text-align: center;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+.life pre{
+    font-size: 18px;
+    color: #999999;
+}
+
+.life div{
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.life:hover{
+    box-shadow: 0px 0px 100px #E8E8E8;
+}
+
+.life:hover img{
+    animation: out 1s;
+    animation-fill-mode: forwards;
+}
+
+.life:hover h2{
+    color: #F39700;
+    margin-bottom: 10px;
+}
+
+@keyframes out {
+	0%{
+        width: 100%;
+        height: 100%;
+    }
+    100%{
+        width: 110%;
+        height: 110%;
+    }
+}
+
+.sanjiao img{
+    width: 1000px;
+    height: 555px;
+    position: relative;
+    left: 200px;
+}
+
+.subt{
+    display: inline-block;
+    border-bottom: 1px solid #999999;
+    position: relative;
+    left: 660px;
+    bottom: 20px;
+    font-size: 24px;
+    color: #999999;
+}
+
+.subt:hover{
+    border-bottom: 1px solid #F39700;
+    color: #F39700; 
+}
+
+.subt2{
+    position: relative;
+    left: 770px;
+}
+
+.s{
+    display: inline-block;
+    margin-left: 10px;
+    width: 200px;
+    height: 290px;
+    
+}
+
+.sall{
+    position: relative;
+    left: 90px;;
+    
+}
+
+.s img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.ts{
+    text-align: center;
+}
+
+.lightcolor{
+    border-bottom: 1px solid #F39700;
+    color: #F39700;
+}
+
+.darkcolor{
+    border-bottom: 1px solid #999999;
+    color: #999999;
+}

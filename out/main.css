@@ -1,0 +1,172 @@
+.bgimage{
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.top1{
+    
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.top1 .subtitle1{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 15px;
+    width: 160px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: 1000;
+    padding-right: 5px;
+    border-right: 2px solid grey;
+}
+
+.top1 .subtitle2{
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    position: relative;
+    bottom: 3px;
+}
+
+.top1 img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 260px;
+    top: 3px;
+
+}
+
+.top1 .contact{
+    display: inline-block; 
+    position: relative;
+    top: 8px;
+    left: 500px;
+    font-size: 30px;
+    font-weight: bold; 
+    color: #F39700;
+    
+}
+.pic{
+    width: 100%;
+}
+
+.top2{
+    height: 53px;
+    width: 100%;
+    margin-left: 0px;
+    background-color: #F39700;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.top2 ul{
+    width: auto;
+    list-style-type: none;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 5%;
+    padding: 0;
+}
+
+.top2 ul li{
+    float: left;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+.top2 ul li a{
+    display: block;
+    font-size:22px;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.top2 ul li a:hover{
+    color: black;
+}
+
+.top3{
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    background-color: #f39700;
+    height: 102px;
+    width: 300px;
+    line-height: 102px;
+    text-align: center;
+}
+
+.t1{
+    font-size: 14px;
+    height: 60px;
+    line-height: 60px;
+    width: 300px;
+    text-align: center;
+    color: black;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+.right{
+    display: inline-block;
+    float: left;
+}
+
+.right a{
+    text-decoration: none;
+}
+
+.title{
+    text-align: center;
+}
+
+.err{
+    display: inline;
+    position: relative;
+    right: 300px;
+}
+.bt{
+
+}
+
+.f{
+    position: relative;
+    left: 650px;
+}
+
+.fpre{
+    position: relative;
+    left: 350px;
+}
+
+.left{
+    font-size: 20px;
+    font-weight: 200;
+    overflow: hidden;
+}
+
+.succed_img{
+    position: relative;
+    top: 200px;
+    left: 650px;
+}
+
+.p1{
+    position: relative;
+    left: 680px;
+}
+
+.bt2{
+    position: relative;
+    top: 200px;
+    left: 620px;
+    width: 200px;
+    height: 50px;
+}

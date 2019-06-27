@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>华软颐养中心</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <link rel="stylesheet" type="text/css" href="../../bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    </head>
+    <body>
+        <div class="menu">
+            <h3 class="title">东软颐养管理系统</h3>
+            <div class="head"><img src="../admin.png"></div>
+            <div class="name">姓名：</div>
+            <div class="job">职工：</div>
+            <div class="fuc" onclick=""><img src="../bed.png"><a href="bed.html">床位管理</a></div>
+            <div class="fuc" onclick=""><img src="../care.png"><a href="care.html">护理记录</a></div>
+            <div class="fuc" onclick=""><img src="../food.png"><a href="food.html">膳食管理</a></div>
+            <div class="fuc" onclick=""><img src="../live_in.png"><a href="live_in.html">入住信息</a></div>
+            <div class="fuc" onclick=""><img src="../live_out.png"><a href="live_out.html">外出信息</a></div>
+            <div class="fuc" onclick=""><img src="../quit.png"><a href="quit.html">退住信息</a></div>
+        </div>
+        <div class="nav"> 
+            <a href="../reviseinfo.html"><div class="tool revise"><img src="../revise.png" alt="修改个人信息"></div></a>
+            <a href="../../index/index.html"><div class="tool quit"><img src="../log_out.png" alt="退出系统"></div></a>
+            <div class="tool welc">欢迎您！</div>
+            <div class="tool date"></div>
+        </div>
+        <div class="search">
+          <form class="form-inline">
+          <input type="text" name="search" class="form-control" placeholder="输入姓名">
+          <img src="search.png" onclick=""/>
+          </form>
+          <button class="btn btn-priamry" onclick="addline()"><a>新增</a></button>
+        </div>
+
+        <div class="body"> 
+            <table class="table table-striped" border="1" >
+                <tr>
+                    <td>客户ID</td>
+                    <td>客户姓名</td>
+                    <td>年龄</td>
+                    <td>身份证号</td>
+                    <td>房间号</td>
+                    <td>所属楼房</td>
+                    <td>入住时间</td>
+                    <td>服务到期时间</td>
+                    <td>操作按钮</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td><button class="btn btn-primary" onclick="delt(this)">删除</button></td>
+                </tr>
+            </table>
+            <form class="form-inline">
+                客户ID：
+                <input class="form-control" type="text">
+                <br>
+                <br>客户姓名：
+                <input class="form-control" type="text">
+                <br>
+                <br>年龄：
+                <input class="form-control" type="text">
+                <br>
+                <br>身份证号：
+                <input class="form-control" type="text">
+                <br>
+                <br>房间号：
+                <input class="form-control" type="text">
+                <br>
+                <br>所属楼房：
+                <input class="form-control" type="text">
+                <br>
+                <br>入住时间：
+                <input class="form-control" type="text">
+                <br>
+                <br>服务到期时间：
+                <input class="form-control" type="text">
+                <br>
+                <br>
+                <input type="submit" class="btn btn-primary" value="修改信息">
+            </form>
+            <form class="form-inline">
+                    客户ID：
+                    <input class="form-control" type="text">
+                    <br>
+                    <br>客户姓名：
+                    <input class="form-control" type="text">
+                    <br>
+                    <br>年龄：
+                    <input class="form-control" type="text">
+                    <br>
+                    <br>身份证号：
+                    <input class="form-control" type="text">
+                    <br>
+                    <br>房间号：
+                    <input class="form-control" type="text">
+                    <br>
+                    <br>所属楼房：
+                    <input class="form-control" type="text">
+                    <br>
+                    <br>入住时间：
+                    <input class="form-control" type="text">
+                    <br>
+                    <br>服务到期时间：
+                    <input class="form-control" type="text">
+                    <br>
+                    <br>
+                    <input type="submit" class="btn btn-primary" value="增添信息">
+                </form>
+        </div>
+    </div>
+    </body>
+    <script type="text/javascript" src="live_in.js"></script>
+</html>

@@ -1,0 +1,117 @@
+#info{
+    border: 1px solid red;
+    position: relative;
+    top: 0px;
+    width: 300px;
+
+}
+
+.oldpic{
+    width: 300px;
+    height: 300px;
+}
+
+.bgimage{
+    background-color: white;
+}
+
+.top1{
+    
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.top1 .subtitle1{
+    display: inline-block;
+    margin-left: 100px;
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: 1000;
+    padding-right: 5px;
+    border-right: 2px solid grey;
+}
+
+.top1 .subtitle2{
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    position: relative;
+    bottom: 3px;
+}
+
+.top1 img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 250px;
+    top: 20px;
+
+}
+
+.top1 .contact{
+    display: inline-block; 
+    position: relative;
+    top: 8px;
+    left: 500px;
+    font-size: 28px;
+    font-weight: bold; 
+    color: #F39700;
+    
+}
+.pic{
+    width: 100%;
+}
+
+.top2{
+    height: 53px;
+    width: 100%;
+    margin-left: 0px;
+    background-color: #F39700;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.top2 ul{
+    width: auto;
+    list-style-type: none;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 5%;
+    padding: 0;
+}
+
+.top2 ul li{
+    float: left;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+.top2 ul li a{
+    display: block;
+    font-size:22px;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.top2 ul li a:hover{
+    color: black;
+}
+
+.name{
+    display: inline-block;
+    position: relative;
+    left: 550px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.welc{
+    display: inline-block;
+    position: relative;
+    left: 590px;
+    
+}
