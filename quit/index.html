@@ -3,7 +3,14 @@
     <head>
         <title>华软颐养中心</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script>
+            if(screen.width>=1300&&screen.width<1400){
+                document.write("<link rel='stylesheet' type='text/css' href='main.css' />");
+            }else if(screen.width>1400)
+            {
+                document.write("<link rel='stylesheet' type='text/css' href='main_2.css' />")
+            }
+        </script>
         <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" />
         <script type="text/javascript" src="main.js"></script>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -28,7 +35,7 @@
             </center>
         </div>
         <img src="out.jpg" class="pic"/>
-        <h2 class="title">外出申请表</h2>
+        <h2 class="title">退住申请表</h2>
         <form class="f form-inline" method="POST" action="">
             客户姓名：<select class="form-control" name="name">
                 <option>aa</option>
@@ -54,6 +61,6 @@
         <br>
         <input type="submit" onclick="jump()" class="btn btn-primary" value="提交">
         </form>
-        <a href="../content/index.html" style="position:relative;left:750px;bottom:34px;"><button class="btn btn-primary">返回</button></a>
+        <a href="../content/index.html" style="position:relative;left:650px;bottom:34px;"><button class="btn btn-primary">返回</button></a>
     </body>
 </html>

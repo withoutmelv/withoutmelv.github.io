@@ -55,3 +55,6 @@ function register(){
     console.log("succed")
 
 }
+
+console.log(screen.width);
+console.log(window.innerWidth);

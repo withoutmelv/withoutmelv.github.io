@@ -31,6 +31,54 @@ function time(){
     setTimeout(time,1000);
 }
 
+function addline(){
+    let line=document.querySelector('.k1');
+    line.innerHTML+=` <tr>
+    <td>描述</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+        <select class="form-control">
+            <option>是</option>
+            <option>否</option>
+        </select>
+    </td>
+    <td>
+        <select class="form-control">
+            <option>星期一</option>
+            <option>星期二</option>
+            <option>星期三</option>
+            <option>星期四</option>
+            <option>星期五</option>
+            <option>星期六</option>
+            <option>星期日</option>
+        </select>
+    </td>
+    <td><button class="btn btn-primary" onclick="delt(this)">删除</button></td>
+</tr>`;
+    
+}
+
+function addline2(){
+    let line=document.querySelector('.k2');
+    line.innerHTML+=` <tr>
+    <td>描述</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td><button class="btn btn-primary" onclick="delt(this)">删除</button></td>
+</tr>`;
+}
+
+function delt(obj){
+    var del=obj.parentNode.parentNode;
+    del.parentNode.removeChild(del);
+}
+
 
 function control(){
     let move=document.querySelector('.menu');
@@ -54,13 +102,13 @@ function control(){
         head.classList.add("hi");
         name.classList.add("hi");
         job.classList.add("hi");
-        for(let j=0;j<6;j++){
+        for(let j=0;j<3;j++){
             let pp=pic[j].firstChild;
             pp.classList.remove("pic");
             pp.classList.add("pic");
         }
     }else{
-        for(let j=0;j<6;j++){
+        for(let j=0;j<3;j++){
             let pp=pic[j].firstChild;
             pp.classList.remove("pic");
         }
@@ -71,4 +119,6 @@ function control(){
         name.classList.remove("hi");
         job.classList.remove("hi");
     }
+    
+    
 }

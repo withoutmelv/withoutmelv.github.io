@@ -31,6 +31,21 @@ function time(){
     setTimeout(time,1000);
 }
 
+function addline(){
+    let line=document.querySelector('.table');
+    line.innerHTML+=`<td>描述</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td><button class="btn btn-primary" onclick="delt(this)">删除</button></td>`;
+}
+
+function delt(obj){
+    var del=obj.parentNode.parentNode;
+    del.parentNode.removeChild(del);
+}
 
 function control(){
     let move=document.querySelector('.menu');
@@ -54,13 +69,13 @@ function control(){
         head.classList.add("hi");
         name.classList.add("hi");
         job.classList.add("hi");
-        for(let j=0;j<6;j++){
+        for(let j=0;j<3;j++){
             let pp=pic[j].firstChild;
             pp.classList.remove("pic");
             pp.classList.add("pic");
         }
     }else{
-        for(let j=0;j<6;j++){
+        for(let j=0;j<3;j++){
             let pp=pic[j].firstChild;
             pp.classList.remove("pic");
         }
@@ -71,4 +86,6 @@ function control(){
         name.classList.remove("hi");
         job.classList.remove("hi");
     }
+    
+    
 }

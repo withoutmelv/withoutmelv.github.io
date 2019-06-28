@@ -1,17 +1,15 @@
 .menu{
-    z-index: 99;
     height: 100%;
     width: 200px;
     position: fixed;
     left: 0px;
-    border: 1px solid red;
+    margin-top: 60px;
+   
     background-color: #333;
 }
 
 .title{
-    z-index: 99;
     color: aliceblue;
-    border: 1px solid white;
     position: fixed; 
     width: auto;
     height: auto;
@@ -19,58 +17,53 @@
 }
 
 .nav{
+    z-index: 99;
     width: 100%;
     height: 60px;
     position: fixed;
     top: 0px;
     background-color: #333;
-    border: 1px solid black;
-    z-index: 88;
+  
 }
 
 .head{
-    border: 1px solid red;
-    width: 150px;
-    height: 150px;
-    position: relative;
-    top: 200px;
-    left: 25px;
+   
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
 }
 
 .name{
-    border: 1px solid red;
-    width: 150px;
-    height: 50px;
-    position: relative;
-    top: 200px;
-    left: 25px;
+   
+    width: 80px;
+    height: 30px;
+    margin-left: 50px;
     color: aliceblue;
-    font-size: 28px;
+   
 }
-
 
 .job{
-    border: 1px solid red;
-    width: 150px;
-    height: 50px;
-    position: relative;
-    top: 200px;
-    left: 25px;
+   
+    width: 80px;
+    height: 30px;
+    margin-left: 50px;
     color: aliceblue;
-    font-size: 28px;
+    
 }
 
-
 .fuc{
-    border: 1px solid blue;
+   
     width: 200px;
     height: 50px;
     text-align: center;
     line-height: 40px;
     background-color: #333;
     border-radius: 20px;
-    position: relative;
-    top: 300px;
+
+}
+
+
+.fuc2{
 
 }
 
@@ -91,7 +84,6 @@
     font-size: 18px;
 }
 
-
 .date{
     color: aliceblue;
 }
@@ -100,14 +92,11 @@
    color: aliceblue;
 }
 
-
 .nav img{
     width: 30px;
     height: 30px;
     margin-right: 5px;
 }
-
-
 
 div a{
     text-decoration: none;
@@ -119,21 +108,68 @@ div a:hover{
     text-decoration: none;
     color: aliceblue;
 }
- 
 
 .head img{
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
 }
 
 .fuc img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+
+.hi{
+    position: relative;
+    left: 0px;
+}
+
+.pic{
+    animation: picchange 2s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes picchange{
+    100%{float: right;}
+}
+
+.control{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 10px;
+   cursor: pointer;
+}
+.control img{
     width: 40px;
     height: 40px;
+}
 
+@keyframes mov{
+    0%{position: fixed;left:0px;}
+    100%{position: fixed;left:-150px;}
+}
+
+@keyframes out{
+    0%{position: fixed;left:-150px;}
+    100%{position: fixed;left:0px;}
+}
+
+.animain{
+    animation: mov 1s;
+    animation-fill-mode: forwards;
+}
+
+.animaout{
+    animation: out 1s;
+    animation-fill-mode: forwards;
 }
 
 .body{
-    border: 1px solid blue;
     width: 80%;
     height: auto;
     position: relative;
@@ -149,7 +185,7 @@ table caption{
 }
 
 .search{
-    border: 1px solid red;
+   
     width: 1200px;
     height: 40px;
     position: relative;
@@ -173,7 +209,6 @@ table caption{
 }
 
 .body div{
-    border: 1px solid black;
     width: auto;
     height: auto;
 }
@@ -193,7 +228,7 @@ table caption{
 
 .body div table{
     width: 700px;
-    border: 1px solid red;
+   
     position: relative;
     left: 200px;
     bottom: 130px;

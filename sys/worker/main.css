@@ -4,13 +4,11 @@
     position: fixed;
     left: 0px;
     margin-top: 60px;
-  
     background-color: #333;
 }
 
 .title{
     color: aliceblue;
-    border: 1px solid white;
     position: fixed; 
     width: auto;
     height: auto;
@@ -24,18 +22,17 @@
     position: fixed;
     top: 0px;
     background-color: #333;
-    
 }
 
 .head{
-   
+
     width: 80px;
     height: 80px;
     margin-left: 50px;
 }
 
 .name{
-  
+
     width: 80px;
     height: 30px;
     margin-left: 50px;
@@ -44,7 +41,7 @@
 }
 
 .job{
-  
+
     width: 80px;
     height: 30px;
     margin-left: 50px;
@@ -53,7 +50,6 @@
 }
 
 .fuc{
-
     width: 200px;
     height: 50px;
     text-align: center;
@@ -170,3 +166,78 @@ div a:hover{
     animation-fill-mode: forwards;
 }
 
+.body{
+
+    width: 80%;
+    height: auto;
+    position: relative;
+    left: 200px;
+    top: 60px;
+}
+
+table caption{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.search{
+
+    width: 1200px;
+    height: 40px;
+    position: relative;
+    left: 200px;
+    top: 60px;
+}
+
+.search img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 32px;
+    cursor: pointer;
+}
+
+.search button{
+    position: relative;
+    left: 1000px;
+    bottom: 34px;
+    width: 200px;
+}
+
+.body div{
+
+    width: auto;
+    height: auto;
+}
+
+.body div img{
+    width: 134px;
+    height: 134px;
+}
+
+.body div button{
+    position: relative;
+    bottom: 225px;
+    left: 1000px;
+    display: block;
+    margin-top: 5px;
+}
+
+.body div table{
+    width: 700px;
+
+    position: relative;
+    left: 200px;
+    bottom: 130px;
+}
+
+.form-control{
+    width: 80px;
+}
+
+.p1{
+    position: absolute;
+    top: 120px;
+}

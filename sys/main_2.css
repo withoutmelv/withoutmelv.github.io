@@ -3,14 +3,11 @@
     width: 200px;
     position: fixed;
     left: 0px;
-    margin-top: 60px;
-  
     background-color: #333;
 }
 
 .title{
     color: aliceblue;
-    border: 1px solid white;
     position: fixed; 
     width: auto;
     height: auto;
@@ -24,32 +21,37 @@
     position: fixed;
     top: 0px;
     background-color: #333;
-    
 }
 
 .head{
-   
-    width: 80px;
-    height: 80px;
-    margin-left: 50px;
+  
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 200px;
+    left: 25px;
 }
 
 .name{
   
-    width: 80px;
-    height: 30px;
-    margin-left: 50px;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: 200px;
+    left: 25px;
     color: aliceblue;
-   
+    font-size: 28px;
 }
 
 .job{
   
-    width: 80px;
-    height: 30px;
-    margin-left: 50px;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: 200px;
+    left: 25px;
     color: aliceblue;
-    
+    font-size: 28px;
 }
 
 .fuc{
@@ -60,11 +62,8 @@
     line-height: 40px;
     background-color: #333;
     border-radius: 20px;
-
-}
-
-
-.fuc2{
+    position: relative;
+    top: 300px;
 
 }
 
@@ -111,13 +110,13 @@ div a:hover{
 }
 
 .head img{
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
 }
 
 .fuc img{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
     margin-top: 5px;
 }

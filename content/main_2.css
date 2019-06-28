@@ -32,13 +32,17 @@
 .top1 img{
     width: 50px;
     height: 50px;
-   float: right;
+    position: relative;
+    left: 250px;
+    top: 20px;
 
 }
 
 .top1 .contact{
     display: inline-block; 
-    float: right;
+    position: relative;
+    top: 8px;
+    left: 500px;
     font-size: 28px;
     font-weight: bold; 
     color: #F39700;
@@ -46,19 +50,19 @@
 }
 
 #container {
-	width: 1333px;
+	width: 1490px;
 	height: 300px;
 	overflow: hidden;
 }
  
 #photo {
-	width: 3999px;
+	width: 4470px;
 	animation: switch 5s ease-out infinite;
 }
  
 #photo > img {
 	float: left;
-	width: 1333px;
+	width: 1490px;
 	height: 300px;
 }
  
@@ -67,10 +71,10 @@
 		margin-left: 0;
 	}
 	35%, 60% {
-		margin-left: -1333px;
+		margin-left: -1490px;
 	}
 	70%, 100% {
-		margin-left: -2666px;
+		margin-left: -2980px;
     }
 }
 
@@ -94,7 +98,7 @@
 
 .top2 ul li{
     float: left;
-    margin-right: 7%;
+    margin-right: 10%;
     overflow: hidden;
 }
 
@@ -119,6 +123,7 @@
 .top3{
     width: 200px;
     height: 190px;
+    border: 2px solid red;
     position: fixed;
     top: 50%;
     right: 0px;
@@ -170,35 +175,36 @@
 .yuyue{
     background: url("visit-bg.jpg") no-repeat;
     z-index: -3;
-    width: 1333px;
-    height: 200px;
     
 }
 
 
 .v1{
-    width: 240px;
-    height: 80px;
+    width: 340px;
+    height: 100px;
+    position: relative;
+    left: 80px;
+   
 }
 
 .v2{
     z-index: 99;
-    width: 90px;
-    height: 90px;
+    width: 150px;
+    height: 150px;
     position: relative;
-    right: 240px;
+    right: 340px;
 }
 
 .m1{
     position: relative;
-    left: 300px;
-    bottom: 80px;
+    left: 600px;
+    bottom: 100px;
 }
 
 .m2{
     position: relative;
-    left: 850px;
-    bottom: 140px;
+    left: 1200px;
+    bottom: 150px;
 }
 
 .m2 p{
@@ -248,9 +254,8 @@
 .gardencontent1{
     box-shadow: 0px 0px 30px #E8E8E8;
     margin-top: 50px;
-    margin-left: 150px;
-    width: 1060px;
-    height: 300px;
+    width: 100%;
+    height: 500px;
     transform: translateY(502px);
     opacity: 0;
     
@@ -264,8 +269,9 @@
 
 
 .gardenpic{
-    width: 400px;
-    height: 282px;
+    
+    width: 700px;
+    height: 482px;
     position: relative;
     left: 60px;
 }
@@ -274,7 +280,7 @@
     margin-top: 10px;
     float: right;
     position: relative;
-    right: 400px;
+    right: 550px;
     font-size: 30px;
     font-weight: 400;
     border-left: 3px solid #F39700;
@@ -289,28 +295,28 @@
 }
 
 .garden-right1{
-    width: 54px;
-    height: 54px;
+    width: 74px;
+    height: 74px;
     position: relative;
-    bottom: 170px;
-    left: 100px;
+    bottom: 400px;
+    left: 800px;
 }
 
 .garden-right2{
-    width: 54px;
-    height: 54px;
+    width: 74px;
+    height: 74px;
     position: relative;
-    bottom: 170px;
-    left: 180px;
+    bottom: 400px;
+    left: 880px;
 }
 
 
 .garden-right3{
-    width: 54px;
-    height: 54px;
+    width: 74px;
+    height: 74px;
     position: relative;
-    bottom: 170px;
-    left: 260px;
+    bottom: 400px;
+    left: 960px;
 }
 
 .line1{
@@ -319,30 +325,29 @@
     border-top: 1px solid #F39700;
     width: 50px;
     position: relative;
-    bottom: 150px;
-    right: 75px;
-    
+    bottom: 370px;
+    left: 578px;
 }
 
 .line2{
     width: 65px;
     position: relative;
-    bottom: 150px;
-    left: 10px;
+    bottom: 370px;
+    left: 677px;
 }
 
 .line3{
     width: 65px;
     position: relative;
-    bottom: 150px;
-    left: 80px;
+    bottom: 370px;
+    left: 765px;
 }
 
 .text{
-    font-size: 15px;
+    font-size: 22px;
     position: relative;
-    left: 500px;
-    bottom: 150px;
+    left: 800px;
+    bottom: 350px;
 }
 
 .top2 ul li ul{
@@ -353,7 +358,7 @@
 .top2 ul li:hover ul.two{
     display: block;
     position: absolute;
-    right: 930px;
+    left: 275px;
     top: 156px;
     width: 128px;
     font-size: 22px;
@@ -365,7 +370,7 @@
 .top2 ul li:hover ul.three{
     display: block;
     position: absolute;
-    right: 713px;
+    left: 542px;
     top: 156px;
     width: 128px;
     font-size: 22px;
@@ -395,18 +400,16 @@
 .superlife{
     display: inline-block;
     margin-top: 50px;
-    margin-left: 150px;
-    border: 1px solid red;
-    width: 1060px;
+   
 }
 
 .life{
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 50px;
     height: 557px;
-    width: 302px;
+    width: 402;
     text-align: center;
-    border: 1px solid red;
+   
     overflow: hidden;
 }
 
@@ -457,7 +460,7 @@
     display: inline-block;
     border-bottom: 1px solid #999999;
     position: relative;
-    left: 560px;
+    left: 660px;
     bottom: 20px;
     font-size: 24px;
     color: #999999;
@@ -470,7 +473,7 @@
 
 .subt2{
     position: relative;
-    left: 760px;
+    left: 770px;
 }
 
 .s{
@@ -483,7 +486,7 @@
 
 .sall{
     position: relative;
-    left: 35px;;
+    left: 90px;;
     
 }
 

@@ -3,11 +3,18 @@
     <head>
         <title>华软颐养中心</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script>
+            if(screen.width>=1300&&screen.width<1400){
+                document.write("<link rel='stylesheet' type='text/css' href='main.css' />");
+            }else if(screen.width>1400)
+            {
+                document.write("<link rel='stylesheet' type='text/css' href='main_2.css' />")
+            }
+        </script>
         <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" />
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     </head>
-    <body>
+    <body style="overflow-y: hidden;">
         <h1 style="text-align: center;">请填写下列注册表信息</h1>
             <form class="f form-inline" method="POST">姓名:
                     <input type="text" placeholder="姓名" name="name" class="input form-control">
@@ -34,8 +41,8 @@
                     <input type="text" placeholder="联系地址" name="联系地址" class="input form-control">
                     <br>
                     <br>
-                   <input type="submit" class="b2 btn btn-primary" onclick="alert('申请成功');" value="提交" style="position: relative;left: 0px;">
+                   <input type="submit" class="b2 btn btn-primary" onclick="alert('申请成功');" value="提交" style="position: fixed;left: 0px;top: 470px;width: 100px;height: 40px;">
                 </form>
-                <a href="index.html" style="position: relative;bottom: 240px;left: 320px;"><button class="b1 btn btn-primary" >返回</button></a>
+                <a href="index.html"><button class="b1 btn btn-primary" style="position: fixed;top: 470px;">返回</button></a>
     </body>
 </html>

@@ -4,7 +4,7 @@ html,body{
 }
 
 .bgimage{
-    background: no-repeat center center;
+    background: url(indexbg.jpg) no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
@@ -14,31 +14,31 @@ html,body{
 
 
 .log_in{
-    width: 800px;
-    height: 400px;
+    width: 900px;
+    height: 620px;
     background-color: #ffffff;
     position: relative;
-    left: 300px;
-    top: 50px;
+    left: 290px;
+    top: 30px;
     border-radius: 10px;
 }
 
 .log_in img{
     position: relative;
-    top: 50px;
+    top: 150px;
     left: 60px;
 }
 .f1{
    
     position: relative;
-    bottom: 150px;
+    bottom: 50px;
     left: 450px;
    
 }
 
 .f2{
     position: relative;
-    bottom: 150px;
+    bottom: 50px;
     left: 450px;
 }
 
@@ -48,19 +48,20 @@ html,body{
     width: 100px;
     height: 40px;
     left: 190px;
-    bottom: 120px;
+    
 }
 
 .b2{
     position: relative;
     left: 600px;
-    bottom:160px;
+    bottom:40px;
+    
 }
 
 .role{
     position: relative;
     left:450px;
-    bottom:160px; 
+    bottom:60px; 
 }
 
 

@@ -3,29 +3,37 @@
     <head>
         <title>华软颐养中心</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script>
+            if(screen.width>=1300&&screen.width<1400){
+                document.write("<link rel='stylesheet' type='text/css' href='main.css' />");
+            }else if(screen.width>1400)
+            {
+                document.write("<link rel='stylesheet' type='text/css' href='main_2.css' />")
+            }
+        </script>
         <link rel="stylesheet" type="text/css" href="../../bootstrap-3.3.7-dist/css/bootstrap.min.css" />
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     </head>
     <body>
-        <div class="menu">
-            <h3 class="title">东软颐养管理系统</h3>
-            <div class="head"><img src="../admin.png"></div>
-            <div class="name">姓名：</div>
-            <div class="job">职工：</div>
-            <div class="fuc" onclick=""><img src="../bed.png"><a href="bed.html">床位管理</a></div>
-            <div class="fuc" onclick=""><img src="../care.png"><a href="care.html">护理记录</a></div>
-            <div class="fuc" onclick=""><img src="../food.png"><a href="food.html">膳食管理</a></div>
-            <div class="fuc" onclick=""><img src="../live_in.png"><a href="live_in.html">入住信息</a></div>
-            <div class="fuc" onclick=""><img src="../live_out.png"><a href="live_out.html">外出信息</a></div>
-            <div class="fuc" onclick=""><img src="../quit.png"><a href="quit.html">退住信息</a></div>
-        </div>
-        <div class="nav"> 
-            <a href="../reviseinfo.html"><div class="tool revise"><img src="../revise.png" alt="修改个人信息"></div></a>
-            <a href="../../index/index.html"><div class="tool quit"><img src="../log_out.png" alt="退出系统"></div></a>
-            <div class="tool welc">欢迎您！</div>
-            <div class="tool date"></div>
-        </div>
+            <div class="menu">
+                    <div class="head"><img src="../admin.png"></div>
+                    <div class="name">姓名：</div>
+                    <div class="job">职工：</div>
+                    <div class="fuc" onclick=""><a href="bed.html"><img src="../bed.png"></a><a href="bed.html">床位管理</a></div>
+                    <div class="fuc" onclick=""><a href="care.html"><img src="../care.png"></a><a href="care.html">护理记录</a></div>
+                    <div class="fuc" onclick=""><a href="food.html"><img src="../food.png"></a><a href="food.html">膳食管理</a></div>
+                    <div class="fuc" onclick=""><a href="live_in.html"><img src="../live_in.png"></a><a href="live_in.html">入住信息</a></div>
+                    <div class="fuc" onclick=""><a href="live_out.html"><img src="../live_out.png"></a><a href="live_out.html">外出信息</a></div>
+                    <div class="fuc" onclick=""><a href="quit.html"><img src="../quit.png"></a><a href="quit.html">退住信息</a></div>
+                </div>
+                <div class="nav"> 
+                  <h3 class="title">东软颐养管理系统</h3>
+                    <div class="control" onclick="control()"><img src="nav.png"></div>
+                    <a href="../reviseinfo.html"><div class="tool revise"><img src="../revise.png" alt="修改个人信息"></div></a>
+                    <a href="../../index/index.html"><div class="tool quit"><img src="../log_out.png" alt="退出系统"></div></a>
+                    <div class="tool welc">欢迎您！</div>
+                    <div class="tool date"></div>
+                </div>
         <div class="search">
           <form class="form-inline">
           <input type="text" name="search" class="form-control" placeholder="输入姓名">

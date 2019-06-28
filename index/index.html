@@ -3,7 +3,15 @@
     <head>
         <title>华软颐养中心</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script>
+            if(screen.width>=1300&&screen.width<1400){
+                document.write("<link rel='stylesheet' type='text/css' href='main.css' />");
+            }else if(screen.width>1400)
+            {
+                document.write("<link rel='stylesheet' type='text/css' href='main_2.css' />")
+            }
+        </script>
+        
         <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" />
         <script type="text/javascript" src="main.js"></script>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -26,7 +34,7 @@
             <label  class="role"><input type="radio" name="role" value="admin" class="ro">系统管理员</label>
             <input type="submit" class="b1 btn btn-primary" onclick="judgeRole()" value="登陆">
         </form>
-       <a href="index/register.html"><button class="b1 b2 btn btn-primary" onclick="">注册</button></a>
+       <a href="register.html"><button class="b1 b2 btn btn-primary" onclick="">注册</button></a>
        <p class="note"></p>
     </div>
     </body>

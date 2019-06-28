@@ -3,7 +3,14 @@
     <head>
         <title>华软颐养中心</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script>
+            if(screen.width>=1300&&screen.width<1400){
+                document.write("<link rel='stylesheet' type='text/css' href='main.css' />");
+            }else if(screen.width>1400)
+            {
+                document.write("<link rel='stylesheet' type='text/css' href='main_2.css' />")
+            }
+        </script>
         
         <script type="text/javascript" src="common/test.js"></script>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -83,12 +90,12 @@
 
         <div>
             <h1 style="text-align: center;">生活照料服务</h1>
-            <p style="color: #999999;text-align:center;">生活照料服务遵循国际先进的照护理念和原则，由
+            <p style="color: #999999;text-align:center;font-size: 12px;">生活照料服务遵循国际先进的照护理念和原则，由
                 专业人员运用科学的评估体系为长辈进行全面评估，
                 制定个性化服务方案，使用专业的照护技术，协助长
                 辈恢复正常舒适的生活。
             </p>
-            <img src="carebg.jpg">
+            <img src="carebg.jpg" style="width: 1000px;height: 500px;position: relative;left: 150px;">
         </div>
     </body>
 </html>

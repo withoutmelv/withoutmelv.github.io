@@ -1,6 +1,17 @@
+#info{
+    position: relative;
+    top: 0px;
+    width: 300px;
+
+}
+
+.oldpic{
+    width: 300px;
+    height: 300px;
+}
+
 .bgimage{
     background-color: white;
-    overflow-x: hidden;
 }
 
 .top1{
@@ -13,8 +24,7 @@
 .top1 .subtitle1{
     display: inline-block;
     margin-left: 100px;
-    margin-top: 15px;
-    width: 160px;
+    width: 150px;
     height: 40px;
     font-size: 30px;
     font-weight: 1000;
@@ -33,14 +43,18 @@
 .top1 img{
     width: 50px;
     height: 50px;
-    float: right;
+    position: relative;
+    left: 250px;
+    top: 20px;
 
 }
 
 .top1 .contact{
     display: inline-block; 
-    float: right;
-    font-size: 30px;
+    position: relative;
+    top: 8px;
+    left: 500px;
+    font-size: 28px;
     font-weight: bold; 
     color: #F39700;
     
@@ -55,7 +69,7 @@
     margin-left: 0px;
     background-color: #F39700;
     margin-bottom: 5px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .top2 ul{
@@ -87,73 +101,16 @@
     color: black;
 }
 
-.top3{
-    font-weight: bold;
-    font-size: 22px;
-    color: white;
-    background-color: #f39700;
-    height: 102px;
-    width: 300px;
-    line-height: 102px;
-    text-align: center;
-}
-
-.t1{
-    font-size: 14px;
-    height: 60px;
-    line-height: 60px;
-    width: 300px;
-    text-align: center;
-    color: black;
-    background-color: #f7f7f7;
-    border-bottom: 1px solid rgb(221, 221, 221);
-    cursor: pointer;
-}
-
-.right{
+.name{
     display: inline-block;
-    float: left;
-}
-
-.right a{
-    display: block;
-    text-decoration: none;
-}
-
-.title{
-    text-align: center;
-}
-
-.bt{
-
-}
-
-.f{
     position: relative;
     left: 550px;
+    font-weight: 600;
+    font-size: 30px;
 }
-
-.left{
-    font-size: 20px;
-    font-weight: 200;
-    overflow: hidden;
-}
-
-.succed_img{
+.welc{
+    display: inline-block;
     position: relative;
-    top: 200px;
-    left: 650px;
-}
-
-.p1{
-    position: relative;
-    left: 680px;
-}
-
-.bt2{
-    position: relative;
-    top: 200px;
-    left: 620px;
-    width: 200px;
-    height: 50px;
+    left: 590px;
+    
 }

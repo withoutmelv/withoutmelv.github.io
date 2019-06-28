@@ -3,7 +3,14 @@
     <head>
         <title>华软颐养中心</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script>
+            if(screen.width>=1300&&screen.width<1400){
+                document.write("<link rel='stylesheet' type='text/css' href='main.css' />");
+            }else if(screen.width>1400)
+            {
+                document.write("<link rel='stylesheet' type='text/css' href='main_2.css' />")
+            }
+        </script>
         <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" />
         <script type="text/javascript" src="main.js"></script>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -29,7 +36,8 @@
         </div>
         <img src="healthy.jpg" class="pic"/>
         <h2 class="title">入住申请</h2>
-        <form class="f form-inline" method="POST" action="">姓名:
+        <form action="<%=request.getContextPath()%>/CheckInServlet" class="f form-inline" method="POST">
+        	<br>姓名:
             <input type="text" placeholder="姓名" name="name" class="input form-control">
             <br>
             <br>年龄:
@@ -38,8 +46,23 @@
             <br>性别:
             <input type="text" placeholder="性别" name="sex" class="input form-control">
             <br>
-            <br>籍贯:
-            <input type="text" placeholder="籍贯" name="籍贯" class="input form-control">
+            <br>老人类型:
+            <input type="text" placeholder="老人类型" name="老人类型" class="input form-control">
+            <br>
+            <br>生日:
+            <input type="text" placeholder="生日" name="生日" class="input form-control">
+            <br>
+            <br>身高:
+            <input type="text" placeholder="身高" name="身高" class="input form-control">
+            <br>
+            <br>体重:
+            <input type="text" placeholder="体重" name="体重" class="input form-control">
+            <br>
+            <br>血型:
+            <input type="text" placeholder="血型" name="血型" class="input form-control">
+            <br>
+            <br>婚姻状况:
+            <input type="text" placeholder="婚姻状况" name="婚姻状况" class="input form-control">
             <br>
             <br>手机号码:
             <input type="text" placeholder="手机号码" name="手机号码" class="input form-control">
@@ -47,28 +70,13 @@
             <br>身份证号:
             <input type="text" placeholder="身份证号" name="身份证号" class="input form-control">
             <br>
-            <br>医保卡号:
-            <input type="text" placeholder="医保卡号" name="医保卡号" class="input form-control">
-            <br>
-            <br>联系人:
-            <input type="text" placeholder="联系人" name="联系人" class="input form-control">
-            <br>
-            <br>联系人与老人的关系:
-            <input type="text" placeholder="联系人与老人的关系" name="联系人与老人的关系" class="input form-control">
-            <br>
-            <br>联系人电话:
-            <input type="text" placeholder="联系人电话" name="联系人电话" class="input form-control">
-            <br>
-            <br>联系地址:
-            <input type="text" placeholder="联系地址" name="联系地址" class="input form-control">
-            <br>
             <br>护理级别:
-            <input type="text" placeholder="填A、B、C" name="护理级别" class="input form-control">
+            <input type="text" placeholder="填1、2、3、4" name="护理级别" class="input form-control">
             <br>
             <br>
-            <input type="submit" onclick="getInformation()" class="btn btn-primary" value="提交">
+            <input type="submit" class="btn btn-primary" value="提交" >
         </form>
-        <a href="index.html" style="position: relative;left: 760px;bottom: 34px;"><button class="btn btn-primary">返回</button></a>
+        <a href="index.html" style="position: relative;left: 660px;bottom: 34px;"><button class="btn btn-primary">返回</button></a>
         
     </body>
 </html>

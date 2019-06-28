@@ -3,14 +3,12 @@
     width: 200px;
     position: fixed;
     left: 0px;
-    margin-top: 60px;
-  
     background-color: #333;
 }
 
 .title{
+    z-index: 99;
     color: aliceblue;
-    border: 1px solid white;
     position: fixed; 
     width: auto;
     height: auto;
@@ -24,47 +22,51 @@
     position: fixed;
     top: 0px;
     background-color: #333;
-    
+    z-index: 88;
 }
 
 .head{
-   
-    width: 80px;
-    height: 80px;
-    margin-left: 50px;
+
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 200px;
+    left: 25px;
 }
 
 .name{
-  
-    width: 80px;
-    height: 30px;
-    margin-left: 50px;
+
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: 200px;
+    left: 25px;
     color: aliceblue;
-   
+    font-size: 28px;
 }
+
 
 .job{
-  
-    width: 80px;
-    height: 30px;
-    margin-left: 50px;
+
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: 200px;
+    left: 25px;
     color: aliceblue;
-    
+    font-size: 28px;
 }
 
-.fuc{
 
+.fuc{
     width: 200px;
     height: 50px;
     text-align: center;
     line-height: 40px;
     background-color: #333;
     border-radius: 20px;
-
-}
-
-
-.fuc2{
+    position: relative;
+    top: 300px;
 
 }
 
@@ -85,6 +87,7 @@
     font-size: 18px;
 }
 
+
 .date{
     color: aliceblue;
 }
@@ -93,11 +96,14 @@
    color: aliceblue;
 }
 
+
 .nav img{
     width: 30px;
     height: 30px;
     margin-right: 5px;
 }
+
+
 
 div a{
     text-decoration: none;
@@ -109,19 +115,92 @@ div a:hover{
     text-decoration: none;
     color: aliceblue;
 }
+ 
 
 .head img{
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
 }
 
 .fuc img{
+    width: 40px;
+    height: 40px;
+
+}
+
+.body{
+    width: 80%;
+    height: auto;
+    position: relative;
+    left: 200px;
+    top: 60px;
+}
+
+table caption{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.search{
+
+    width: 1200px;
+    height: 40px;
+    position: relative;
+    left: 200px;
+    top: 60px;
+}
+
+.search img{
     width: 30px;
     height: 30px;
-    margin-right: 10px;
+    position: relative;
+    right: 32px;
+    cursor: pointer;
+}
+
+.search button{
+    position: relative;
+    left: 1000px;
+    bottom: 34px;
+    width: 200px;
+}
+
+.body div{
+    width: auto;
+    height: auto;
+}
+
+.body div img{
+    width: 134px;
+    height: 134px;
+}
+
+.body div button{
+    position: relative;
+    bottom: 225px;
+    left: 1000px;
+    display: block;
     margin-top: 5px;
 }
 
+.body div table{
+    width: 700px;
+
+    position: relative;
+    left: 200px;
+    bottom: 130px;
+}
+
+.form-control{
+    width: 80px;
+}
+
+.p1{
+    position: absolute;
+    top: 120px;
+}
 
 .hi{
     position: relative;
@@ -145,6 +224,7 @@ div a:hover{
     top: 10px;
    cursor: pointer;
 }
+
 .control img{
     width: 40px;
     height: 40px;
@@ -169,4 +249,3 @@ div a:hover{
     animation: out 1s;
     animation-fill-mode: forwards;
 }
-

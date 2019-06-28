@@ -3,7 +3,14 @@
     <head>
         <title>华软颐养中心</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script>
+            if(screen.width>=1300&&screen.width<1400){
+                document.write("<link rel='stylesheet' type='text/css' href='main.css' />");
+            }else if(screen.width>1400)
+            {
+                document.write("<link rel='stylesheet' type='text/css' href='main_2.css' />")
+            }
+        </script>
         <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" />
         <script type="text/javascript" src="main.js"></script>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -34,7 +41,7 @@
                 <a href="comeback.html"><div class="t1">回院登记</div></a>
             </div>
         <h2 class="title">回院登记</h2>
-        <form class="form-inline" method="POST" action="" style="position: relative; left: 500px;">
+        <form class="form-inline" method="POST" action="" style="position: relative; left: 450px;">
             是否回院：
             <select class="form-control">
                 <option>是</option>
@@ -44,7 +51,7 @@
             <br>
             <input type="submit" onclick="alert('回院登记成功！');" class="btn btn-primary" value="确定">
         </form>
-        <a href="../content/index.html"><button class="btn btn-primary" style="position: relative;left: 600px;bottom: 34px;" >返回</button></a>
+        <a href="../content/index.html"><button class="btn btn-primary" style="position: relative;left: 550px;bottom: 34px;" >返回</button></a>
             
     </body>
 </html>

@@ -33,13 +33,17 @@
 .top1 img{
     width: 50px;
     height: 50px;
-    float: right;
+    position: relative;
+    left: 260px;
+    top: 3px;
 
 }
 
 .top1 .contact{
     display: inline-block; 
-    float: right;
+    position: relative;
+    top: 8px;
+    left: 500px;
     font-size: 30px;
     font-weight: bold; 
     color: #F39700;
@@ -130,7 +134,7 @@
 
 .f{
     position: relative;
-    left: 550px;
+    left: 650px;
 }
 
 .left{

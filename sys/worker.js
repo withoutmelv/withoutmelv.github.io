@@ -1,4 +1,5 @@
 let date=document.querySelector('.date');
+let flag=0;
 time();
 function time(){
     let d=new Date();
@@ -28,4 +29,46 @@ function time(){
     }
     
     setTimeout(time,1000);
+}
+
+
+function control(){
+    let move=document.querySelector('.menu');
+    let pic=document.querySelectorAll('.fuc');
+    let head=document.querySelector('.head');
+    let name=document.querySelector('.name');
+    let job=document.querySelector('.job');
+    flag++;
+    console.log(pic);
+    if(flag%2!=0){
+        move.classList.remove("animaout");
+        move.classList.remove("animain");
+        move.classList.add("animain");
+        head.classList.remove("hi");
+        name.classList.remove("hi");
+        job.classList.remove("hi");
+        head.classList.add("hi");
+        name.classList.add("hi");
+        job.classList.add("hi");
+
+        head.classList.add("hi");
+        name.classList.add("hi");
+        job.classList.add("hi");
+        for(let j=0;j<3;j++){
+            let pp=pic[j].firstChild;
+            pp.classList.remove("pic");
+            pp.classList.add("pic");
+        }
+    }else{
+        for(let j=0;j<3;j++){
+            let pp=pic[j].firstChild;
+            pp.classList.remove("pic");
+        }
+        move.classList.remove("animaout");
+        move.classList.remove("animain");
+        move.classList.add("animaout");
+        head.classList.remove("hi");
+        name.classList.remove("hi");
+        job.classList.remove("hi");
+    }
 }
