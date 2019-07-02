@@ -45,16 +45,24 @@ html,body{
 
 .b1{
     position: relative;
-    width: 100px;
-    height: 40px;
     left: 190px;
-    bottom: 120px;
+    bottom:120px;
 }
 
 .b2{
     position: relative;
     left: 600px;
-    bottom:160px;
+    bottom:154px;
+}
+
+.bb1{
+    position: relative;
+    left: 100px;
+    bottom: 35px;
+}
+
+.bb2{
+
 }
 
 .role{

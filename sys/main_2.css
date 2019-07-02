@@ -169,3 +169,8 @@ div a:hover{
     animation-fill-mode: forwards;
 }
 
+.b1{
+    position: relative;
+    left: 100px;
+    bottom:35px;
+}

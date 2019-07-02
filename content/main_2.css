@@ -123,7 +123,6 @@
 .top3{
     width: 200px;
     height: 190px;
-    border: 2px solid red;
     position: fixed;
     top: 50%;
     right: 0px;
@@ -297,26 +296,23 @@
 .garden-right1{
     width: 74px;
     height: 74px;
-    position: relative;
-    bottom: 400px;
-    left: 800px;
+    margin-bottom: 350px;
+    margin-left: 100px;
 }
 
 .garden-right2{
     width: 74px;
     height: 74px;
-    position: relative;
-    bottom: 400px;
-    left: 880px;
+    margin-bottom: 350px;
+    margin-left: 100px;
 }
 
 
 .garden-right3{
     width: 74px;
     height: 74px;
-    position: relative;
-    bottom: 400px;
-    left: 960px;
+    margin-bottom: 350px;
+    margin-left: 100px;
 }
 
 .line1{
@@ -324,23 +320,23 @@
     height: 50px;
     border-top: 1px solid #F39700;
     width: 50px;
+    margin-left: 820px;
     position: relative;
-    bottom: 370px;
-    left: 578px;
+    bottom: 350px;
 }
 
 .line2{
     width: 65px;
+    margin-left: 990px;
     position: relative;
-    bottom: 370px;
-    left: 677px;
+    bottom: 400px;
 }
 
 .line3{
     width: 65px;
+    margin-left: 1170px;
     position: relative;
-    bottom: 370px;
-    left: 765px;
+    bottom: 450px;
 }
 
 .text{
@@ -358,7 +354,7 @@
 .top2 ul li:hover ul.two{
     display: block;
     position: absolute;
-    left: 275px;
+    right: 1012px;
     top: 156px;
     width: 128px;
     font-size: 22px;
@@ -370,7 +366,7 @@
 .top2 ul li:hover ul.three{
     display: block;
     position: absolute;
-    left: 542px;
+    right: 746px;
     top: 156px;
     width: 128px;
     font-size: 22px;

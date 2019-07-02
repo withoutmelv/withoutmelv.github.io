@@ -3,7 +3,7 @@
     width: 200px;
     position: fixed;
     left: 0px;
-    margin-top: 60px;
+    top: 60px;
   
     background-color: #333;
 }
@@ -62,7 +62,6 @@
     border-radius: 20px;
 
 }
-
 
 .fuc2{
 
@@ -170,3 +169,8 @@ div a:hover{
     animation-fill-mode: forwards;
 }
 
+.b1{
+    position: relative;
+    left: 100px;
+    bottom:35px;
+}
